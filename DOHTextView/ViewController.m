@@ -38,7 +38,7 @@
 - (void)setTextViewConfigure{
     _textView.placeholderText = @"请写下您的宝贵的意见，我们将及时采纳。再次感谢您的反馈";
     _textView.maxNumberOfWords = 15;
-//    _textView.minNumberOfWords = 5;
+    _textView.minNumberOfWords = 5;
     _textView.backgroundColor = [UIColor yellowColor];
     [_textView setTextViewCornerRadius:10 borderWidth:1 borderColor:[UIColor greenColor] shadowOffset:CGSizeZero shadowColor:nil shadowOpacity:1 shadowPath:nil shadowRadius:0];
 }
